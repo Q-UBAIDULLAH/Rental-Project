@@ -21,7 +21,7 @@ export default async function Home() {
       const cars=await getproduct()
       console.log(cars)
   return (
-  <div className="bg-yellow-300 w-full h-full  ">
+  <div className="bg-yellow-300 w-full h-full flex flex-col justify-center items-center  ">
 <div className=" rounded-xl m-4 w-72 bg-orange-500 ">
 
 
@@ -193,23 +193,74 @@ export default async function Home() {
     </div>
     <div className=""><p>Step 4 of 4</p></div>
   </div>
-  <div className="flex justify-between items-center m-4 h- p-  md:float-left md:w-[804px] md:h-[45px] md:py-2 rounded-[5px] bg-slate-300">
+
+
+
+ 
+  <div className=" m-4 flex justify-center items-center  p- h-14 md:float-left md:w-[804px] md:h-[45px] md:py-2 rounded-[5px] bg-slate-300">
   
-  <div className="flex "><input type="checkbox" /><label> I agree with sending an Marketing and newsletter emails. No spam, promissed!</label></div>
+  <div className="flex "><input type="checkbox" /><label className="pl-1 text-xs  "> I agree with sending an Marketing and newsletter emails. No spam, promissed!</label></div>
 
 </div> 
-  <div className="flex justify-between items-center m-4 h- p-2 md:float-left md:w-[804px] md:h-[45px] md:py-2 rounded-[5px] bg-slate-300">
+  <div className=" m-4 h- p- h-14 flex justify-center items-center  md:float-left md:w-[804px] md:h-[45px] md:py-2 rounded-[5px] bg-slate-300">
   
-  <div className=""><input type="checkbox" /><label>I agree with our terms and conditions and privacy policy!</label></div>
+  <div className="flex "><input type="checkbox" /><label className="pl-1 text-xs flex">I agree with our terms and conditions and privacy policy!</label></div>
 
-</div> 
-       
-    <button className="w-[130px] h-[50px] bg-[#3563E9] rounded-[10px] mt-8">Rent Now</button>
+       </div> 
+    <button className="w-28 h-10 bg-[#3563E9] rounded-md text-white ml-4">Rental Now</button>
 
 </div>
 
 
+<div className="rounded-xl m-4 w-72 pb-2 bg-orange-500 ">
 
+<div className="flex justify-between  bg-orange-400 m-4 ">
+    <div className="w-   bg-slate-500">
+    <h3 className="font-[700]">Rental Summary</h3>
+    <p className="text-[#90A3BF] text-[11px]">Prices may change depending on the length of the rental and the price of your rental 
+      car.</p>
+    </div>
+    <div className=""><p></p></div>
+  </div>
+
+  <div className="flex gap-6 mt-6">
+
+<div className="w-[132px] h-[108px] bg-[#3563E9] rounded-[7px] ">
+  <img className="" src="https://s3-alpha-sig.figma.com/img/702f/356e/48fe531e6fd2626c5d1041dbfcde3341?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nV8HMyqpegW3bZJnQKDN-3WBM7oRuiUKQpVhBFUAc5MuU12bwdZ7diKdg0112M6VWW9ZvvyNYq5jNuIUV~KtjZCNPhzCJmo6CjkF7HGYaDthKbQ3dpKhtcHT~CL3T3YYDQAgje8jmqbytpJEMrMyTQbxqJDG80QFzDk5ZBSC8jQ8c6DStiva6A9tSIjHL~gi~zszVAJo5iYyB7vzIBkmmjBJoxFqCJ9Z5cKwh5uO0W9vsRo~bkdjZ5S4Lqd-f4YwVbcZkMEvpKvNkKRzasDknFdXRFCUjwx-rU9tG0WJQ1x9mYBUQLx2uc3JRHX4RhnEyk8kABr9Hkn7vcitpjp1Qg__" alt="" />
+</div>
+<div >
+  <p>Nissan GT - R</p>
+ 
+</div>
+
+  </div>
+<div className="border mt-3"></div>
+
+<div className="flex justify-between m-4">
+<div className="">
+  <p className="mt-">Subtotal</p>
+  <p className="mt-2">Tax</p>
+</div>
+<div className="">
+  <p className="mt-">$80.00 </p>
+  <p className="mt-2">$0</p>
+</div>
+
+</div>
+
+<div className="flex justify-between items-center  m-3 p-2 h-10 p- md:float-left md:w-[804px] md:h-[45px] md:py-2 rounded-[8px] bg-slate-300">
+  
+  <div className="text-xs font-[500]"><p>Apply promo code</p></div>
+<p className="text-sm font-semibold">Apply now</p>
+</div>
+<div className="flex justify-between items-center  m-3 p-2 h-10 p- md:float-left md:w-[804px] md:h-[45px] md:py-2 rounded-[8px] bg-slate-300">
+  
+  <div className="text-xs font-[500]"><p className="text-sm font-semibold">Total Rental Price</p>
+  <p>overall price rental</p></div>
+<p className="text-sm font-semibold">$80.00</p>
+</div>
+
+</div>
 
   </div>
 
