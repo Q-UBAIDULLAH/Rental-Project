@@ -16,232 +16,7 @@ const Cards=()=>{
         {/* bg-slate-500 */}
 
 
-        <div className="flex   gap-4 bg-black md:gap-[14px] sm:gap-2 mt-8 overflow-x-scroll no-scrollbar w-full">
-
-{/* bg-zinc-400 */}
-<div className="w-72 h-80 md:h-[380px] sm:w-70 sm:h-96  rounded-[10px]  bg-violet-600">
-
-
-<div className="flex justify-between ">
-
-
-<div className="w-[128px] h-[48px] mt-5 ml-5">
-<h3 className="text-[20px] font-[700]">Koenigsegg</h3>
-<h6 className="text-[#90A3BF]">sport</h6>
-</div>
-
-<div className="w-[24px] h-[24px] mt-6 mr-4">
-<FcLike className="text-[21px] "/>
-</div>
-
-</div>
-
-{/* bg-black */}
-
-<div className="w-64 h-32 p-2 ml-2 mr-2   mt-3 bg-black flex justify-center items-center">
-  <img className="w-full h-full object-cover" 
-       src="https://s3-alpha-sig.figma.com/img/2385/cc01/da9bb791587b8022c475d39822c50c17?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=aXPA~bTK8ua6bnZ4uVF0J~JEu88j6x89WVM1Jiw~3FF0A71z0FrdEmLjNy16w5vsGMmU4f1vWTzY~slQOU0plpbOsDizXuwtqK71IMnNsPTYrEZHy6~BkQwKYDlpJE~FdWCzqcqUaNKQUSO7DzmIwPzpsvr7vCdI86TWP4aMkdpIjTdvx7Li9VtFNEuUEydQVxVCJ9~uxswayhhNKEFMpELGb3U2ovfGASUvmf5FsHmfCAOD~rot1v1Mw8MQXZ7UvNq0wCPyAWnFzCJLlpdiR64gAuTHaKueoyxRhTkIiRIxY6uYoybhTHgIAdmKDecAFsBlekITURwPuLwpQYaHYQ__" 
-       alt="Car" />
-</div>
-
-
-
-<div className="flex gap-4 mt-2 ml-3   md:ml-5 sm:ml-2">
-  <span class="flex items-center font-[500] text-[14px] text-[#90A3BF]">
-    <BsFillFuelPumpFill class="mr-2 text-[23px] text-[#65748c]"/>
-    90L
-  </span>
-  <span className="flex items-center font-[500] text-[14px] text-[#90A3BF]">
-    <RxColorWheel  class="mr-2 text-[23px] text-[#65748c]" />
-    Manual
-  </span>
-  <span className="flex items-center font-[500] text-[14px] text-[#90A3BF]">
-    <MdPeopleAlt class="mr-2 text-[23px] text-[#65748c]" />
-    2 People
-  </span>
-</div>
-{/* bg-zinc-900 */}
-<div className="flex gap-4 mt-7 ml-4   ">
-   <div className="w-[116px] h-[44px]   ">
-    <h2 className="text-[20px] font-[700] ">$99.00/<span className="text-[14px] font-[700] text-[#90A3BF]">day</span></h2>
-    </div> 
-    <button className="w-[116px] h-[43px]  rounded-[4px] bg-[#3563E9] text-[#FFFFFF]">Rent Now</button>
-</div>
-
-</div>
-
-
-
-
-
-
-
-<div className="w-72 h-80 md:w-[296px] md:h-[380px] sm:w-70 sm:h-96  rounded-[10px]   md:block bg-red-700">
-
-
-<div className="flex justify-between ">
-
-
-<div className="w-[128px] h-[48px] mt-5 ml-5">
-<h3 className="text-[20px] font-[700]">Nissan GT-R</h3>
-<h6 className="text-[#90A3BF]">sport</h6>
-</div>
-
-<div className="w-[24px] h-[24px] mt-6 mr-4">
-<CiHeart className="text-[23px]"/>
-</div>
-
-</div>
-
-{/* bg-black */}
-{/* <div className="w-64 h-32 ml-3 mt-3  bg-black">
-<img className="object-cover mirror-x or scale-x-[-1] " src="https://s3-alpha-sig.figma.com/img/702f/356e/48fe531e6fd2626c5d1041dbfcde3341?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kO2EcPzOZTEzeHm2U995JmDNxz-tJiUNrBRumloUxtMujDZDz0g8pNhc61UiUPILuT4AOCijvg3a1DnaxZ49KMg0J-hWV~42oFPEED8u8MKvJdWGYKCJ9IyvZBhrOhHPguUamiHp6kCbcuawVTC6Qw8Nit0yQFLIkDhuSk4B26bJRlKMr-mUWMr8lECu8oB4HJE2OaqRE2EekkU5An7g1hOOm11q0fuIXnWyfCnGaCUre3BZKD33PpShx3V5VMBwCK9CXi~f9oGLZKRA50CaoRKDbIzsK3C0mQmLvHI-5aMC9sCbva9RoYowB6fQdu9I5FT7oobJ54I1hMDevHmrRA__" alt="" />
-</div> */}
-<div className="w-64 h-32 p-2 ml-2 mr-2 mt-3 bg-black flex justify-center items-center">
-  <img className="object-cover mirror-x or scale-x-[-1]" 
-       src="https://s3-alpha-sig.figma.com/img/702f/356e/48fe531e6fd2626c5d1041dbfcde3341?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uKAeYhmPQNzih2Z9D5nhxaxCJiAR5Fy6R-7~FQSob~2KHO9yArnpOKnBQRI0kSUo3QV-aa50CqO6OkabI1Bq0tQ-Cj8pe8BABv~5auiNMRaUz4FPovsF89d1wj2W5ufAYz9t0NKOdoVLw0-5yWJY8yC4j-EaN7nWtYCQWC4JbFxZTkYBJZqVfw9ydL0Qoxq69O0ocxP3jMw2ihPmbYHnjX6fmRU3lc-CcfelKGMW1Ym80MSUege0YPEfHhCnKzxZLoKm20cDkcD~wUOCaWQ22wpJkXZN0o-DAwmgBPS5vq7CslUjtC~WZt3Tj3hMr2rAE5Kgn0x8NwXzVD6yphgdOg__" 
-       alt="Car" />
-</div>
-
-
-<div className="flex gap-4 mt-2 ml-3   md:ml-5 sm:ml-2">
-  <span class="flex items-center font-[500] text-[14px] text-[#90A3BF]">
-    <BsFillFuelPumpFill class="mr-2 text-[23px] text-[#65748c]"/>
-    90L
-  </span>
-  <span className="flex items-center font-[500] text-[14px] text-[#90A3BF]">
-    <RxColorWheel  class="mr-2 text-[23px] text-[#65748c]" />
-    Manual
-  </span>
-  <span className="flex items-center font-[500] text-[14px] text-[#90A3BF]">
-    <MdPeopleAlt class="mr-2 text-[23px] text-[#65748c]" />
-    2 People
-  </span>
-</div>
-{/* bg-zinc-900 */}
-<div className="flex gap-4 mt-7 ml-4 ">
-   <div className="w-[116px] h-[44px]  ">
-    <h2 className="text-[20px] font-[700]">$99.00/<span className="text-[14px] font-[700] text-[#90A3BF]">day</span></h2>
-    <h2> <del className="text-[#90A3BF] text-[14px] font-[700]"> $100.00</del></h2>
-    </div> 
-    <button className="w-[116px] h-[43px] rounded-[4px] bg-[#3563E9] text-[#FFFFFF]">Rent Now</button>
-</div>
-
-</div>
-
-
-
-
-
-<div className="w-72 h-80 rounded-[10px] sm:hidden md:block bg-[#545a58]">
-
-
-<div className="flex justify-between ">
-
-
-<div className="w-[128px] h-[48px] mt-5 ml-5">
-<h3 className="text-[20px] font-[700]">Rolls - Royce</h3>
-<h6 className="text-[#90A3BF]">Sedan</h6>
-</div>
-
-<div className="w-[24px] h-[24px] mt-6 mr-4">
-<FcLike className="text-[21px] "/>
-</div>
-
-</div>
-
-{/* bg-black */}
-<div className=" w-64 h-32  p-2 ml-2 mr-2 mt-3  bg-black flex justify-center items-center">
-<img className="https://s3-alpha-sig.figma.com/img/2e45/bdb6/4d6f5df6dab1d18d948223ba47972f21?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=UE2tr~BPL9yvDHenmcrWnn9GJXIEQ3m6bmzkUejqmqS-CazRiGtC2wuZYUbtAiDno9BkswY3dIJBc9JNpEqVyTbA~ec8G4inGaGhNthYvvcaa8jVujFTmpP2iJnSDGn6teVEIf05Pa~ijFFTgyY7LW7KtCVtM~zvpzrw2b8aQNX~6cZm0U4VFGRhCDCayDGA7N85~HrCLcx7EhE9~2WymoL615Mkz1~nZqaZ-GJTiuLUxBgmuprO3WMzjFiViuwRIX2gDjEKyuTLUQBENVcr~5ghV24wV2eG2~bn8ZYTX1uUsj2xyBPYv3qmdw~qwrPgu3WKJ5bELI27Llciv77jVA__" />
-</div>
-
-
-<div className="flex gap-4 mt-2 ml-3   md:ml-5 sm:ml-2">
-  <span class="flex items-center font-[500] text-[14px] text-[#90A3BF]">
-    <BsFillFuelPumpFill class="mr-2 text-[23px] text-[#65748c]"/>
-    90L
-  </span>
-  <span className="flex items-center font-[500] text-[14px] text-[#90A3BF]">
-    <RxColorWheel  class="mr-2 text-[23px] text-[#65748c]" />
-    Manual
-  </span>
-  <span className="flex items-center font-[500] text-[14px] text-[#90A3BF]">
-    <MdPeopleAlt class="mr-2 text-[23px] text-[#65748c]" />
-    2 People
-  </span>
-</div>
-{/* bg-zinc-900 */}
-<div className="flex gap-4 mt-7 ml-4 ">
-   <div className="w-[116px] h-[44px]  ">
-    <h2 className="text-[20px] font-[700]">$99.00/<span className="text-[14px] font-[700] text-[#90A3BF]">day</span></h2>
-    </div> 
-    <button className="w-[116px] h-[44px] rounded-[4px] bg-[#3563E9] text-[#FFFFFF]">Rent Now</button>
-</div>
-
-</div>
-
-
-<div className="w-full h- rounded-[10px] sm:hidden md:block bg-[#40c24f]">
-  {/* Header Section */}
-  <div className="flex justify-between">
-    <div className="w-[128px] h-[48px] mt-5 ml-5">
-      <h3 className="text-[20px] font-[700]">Nissan GT-R</h3>
-      <h6 className="text-[#90A3BF]">Sport</h6>
-    </div>
-    <div className="w-[24px] h-[24px] mt-6 mr-4">
-      <CiHeart className="text-[23px]" />
-    </div>
-  </div>
-
-  {/* Image Section */}
-  <div className="flex  justify-between items-center">
-    <div className="w-52 ml-3 mt-1 ">
-      <img
-        className="  object-cover scale-x-[-1]"
-        src="https://s3-alpha-sig.figma.com/img/702f/356e/48fe531e6fd2626c5d1041dbfcde3341?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uKAeYhmPQNzih2Z9D5nhxaxCJiAR5Fy6R-7~FQSob~2KHO9yArnpOKnBQRI0kSUo3QV-aa50CqO6OkabI1Bq0tQ-Cj8pe8BABv~5auiNMRaUz4FPovsF89d1wj2W5ufAYz9t0NKOdoVLw0-5yWJY8yC4j-EaN7nWtYCQWC4JbFxZTkYBJZqVfw9ydL0Qoxq69O0ocxP3jMw2ihPmbYHnjX6fmRU3lc-CcfelKGMW1Ym80MSUege0YPEfHhCnKzxZLoKm20cDkcD~wUOCaWQ22wpJkXZN0o-DAwmgBPS5vq7CslUjtC~WZt3Tj3hMr2rAE5Kgn0x8NwXzVD6yphgdOg__"
-        alt=""
-      />
-    </div>
-
-    {/* Icons Vertically After Image */}
-    <div className="flex flex-col gap-3 ml-5 mr-2 ">
-  <span className="flex  font-[500] text-[14px] text-[#90A3BF] whitespace-nowrap">
-    <BsFillFuelPumpFill className="text-[23px] text-[#65748c]" />
-    <span className="ml-2">90L</span>
-  </span>
-  <span className="flex  font-[500] text-[14px] text-[#90A3BF] whitespace-nowrap">
-    <RxColorWheel className="text-[23px] text-[#65748c]" />
-    <span className="ml-2">Manual</span>
-  </span>
-  <span className="flex font-[500] text-[14px] text-[#90A3BF] whitespace-nowrap">
-    <MdPeopleAlt className="text-[23px] text-[#65748c]" />
-    <span className="ml-2">2 People</span>
-  </span>
-</div>
-
-
-
-  </div>
-
-  {/* Price & Rent Button */}
-  <div className="flex justify-between mr-2 gap-14 mt-7 ml-5">
-    <div className="">
-      <h2 className="text-[20px] font-[700]">
-        $99.00/
-        <span className="text-[14px] font-[700] text-[#90A3BF]">day</span>
-      </h2>
-      <h2>
-        <del className="text-[#90A3BF] text-[14px] font-[700]">$100.00</del>
-      </h2>
-    </div>
-    <button className="w-28 h-11 md:w-[116px] md:h-[44px] rounded-[4px] bg-[#3563E9] text-[#FFFFFF]">
-      Rent Now
-    </button>
-  </div>
-</div>
-
-
-</div>
+      
 jjj
 
 
@@ -291,7 +66,7 @@ jjj
     <div className="w-52 ml-3 mt-1 ">
       <img
         className="h-full w-full object-cover"
-        src="https://s3-alpha-sig.figma.com/img/5093/2266/1844e6b8d2bc7a68f501d79e35f5f4ab?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H8y7isRNpWfNgLQ-gzCy9k2pMF4at~WqcrOw5b9RzcKOpl5Xx5Kd2F-o4Y9jdgxjUqvI7IfieftZ~~S1YPbQzmiz0BdAGzmYiyVjaXRB~jrwxULX~qKSkjBmnhbL8PDvUayTFxYVATY-gJU~muyFRlD~Az70kEkEABs5e0agkMFvjFavRaNkbBkafYbDVO7-5BMHcDYamaYPv9WTcRtYTu5aC7QQd4RQC1yuF3zDHjQKBrrKvRsDj~pLjZqARMqXxSqQ8FjOrX9OsFjKxa9EcPNHIAfaIun00Od8gE6Oa0HLfzSLjBTcL9rtFGXFu2jEw82dCXHQP46yI6Sp9yIw7Q__"
+        src="https://s3-alpha-sig.figma.com/img/5093/2266/1844e6b8d2bc7a68f501d79e35f5f4ab?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=npUUdfARo42nXPfuyur6Quv8q3VcS4g9g9gC~CmKk4HAB5CNUwsA6V1nY5cU1EvxYdUT7xxNeZA7PQkNavfATw1cB9aSX~h725XT79uraWw3sok8ubh0CfEG3aI1rPmzi9H1sUjEE9ztEpvcnzBGKTmd5EyhNsu-B5rwvmIwgbH~M~ToWrM86llAWPoixSyQHw2obSH8PLgfLUMNIVZC3~ziLQ7jDBqeRdHP-L1sgD6Bz9-aMbDzw74p4Qzd3aUs95KxcEnMACmNXKmiSamri-bJ2I~S2wl1PjYrvXO5ez-ftjKpeGBcQmHQdXzZBEKJLlBcUqYdZpWUgS7b5TyChA__"
         alt=""
       />
     </div>
@@ -353,7 +128,7 @@ jjj
     <div className="w-52 ml-3 mt-1 ">
       <img
         className="  object-cover scale-x-[-1]"
-        src="https://s3-alpha-sig.figma.com/img/92f7/4dec/074acdd579ecaf8742bac9eede524b1f?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SzB2eiiLfzCVXqbeJf4hn-I076JwH2nVfh2rfPetPvzhqkIxgqgxaTZ7WeELmqt33LxToYwyj4QrMNq57j0PobrOm-CVj~yNe4Mj9B7XZB1iwSpSRKQTAx2PfRf3ZBQx628Pk-kQQ4YoqyojzIdmUQloXGgDEyyD8g04o9AzW~enZHJis9rQQ7M5xyqor6L7e1U9lufQpDhe~oQpXuadTTm0OPfafOblWu2ee4B0IiMF3e9H35J0HSyJfN3iZ1F0xqOae5o~MBSAIafnQR9OjLJ22Edn~bZXPkLI-BdCgrga-ZpKe36~q3KDmo1TLcOx5gujAile-8xEI1VhwnSeVQ__"
+        src="https://s3-alpha-sig.figma.com/img/92f7/4dec/074acdd579ecaf8742bac9eede524b1f?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=gZSk7Nk~tvBs9dnxBjysou-DvN41gqdgXJuYOvhI3g0Sz97BmZJGDHJRV0i88UAnecQWQCRTXg4mBHuxhsDbzCYXHXRyxfVAOaMeyENpfkGOWQGuolaPrb3Ugou7n4JVriw03All21Owp3fNhDK4yR2sbDcX58z72bI88EE5SBk3hkKdjXx66snKim4ei1bhF0WeNTta2Zk8EK9uAmWbAcRU03dNsCnB0Ee~761rlah0yLOK4TT9y4RKI4i7jIaRrWP~tMRKudXu~C46BGixF37QRhH9KUqs4zvp~pjcIymMaZC~XdrXiRVQEUe3nEuV1NrQsklptFVpCE~wjuVeYw__"
         alt=""
       />
     </div>
@@ -418,7 +193,7 @@ jjj
     <div className="w-52 ml-3 mt-1 ">
       <img
         className="object-cover mirror-x or scale-x-[1]"
-        src="https://s3-alpha-sig.figma.com/img/5093/2266/1844e6b8d2bc7a68f501d79e35f5f4ab?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ALW5yiAuwJSYMRD4KKBREk5XJaFssJK88edZYIztwdOi4dOo6z8DaWRP0FKffoxrpuQT5mTufGoLy51aUfD-TTy0of1g7SlmL3r1PX0K3ecZAIxIS0PJz85nifJZMdzK3ZyEARq2HsBQ2RggeC029grQHnGNQPdra~AIuyl3DxjkwdPs0bn6v~5~XN8wsgiQgyCAmoyujPPDBh7T12cAha~sArENLFOhnxNLCgU79aaukBq0gNFn08BFFgzU4AT~1IXLtp1ef1hqhvxowxzxN-unuyzRTlDV-knFYj0I-Cph33rnJ8XSAwUQ1IHUrioAci8cRykaMUFM9J26WN-uWQ__"
+        src="https://s3-alpha-sig.figma.com/img/5093/2266/1844e6b8d2bc7a68f501d79e35f5f4ab?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=npUUdfARo42nXPfuyur6Quv8q3VcS4g9g9gC~CmKk4HAB5CNUwsA6V1nY5cU1EvxYdUT7xxNeZA7PQkNavfATw1cB9aSX~h725XT79uraWw3sok8ubh0CfEG3aI1rPmzi9H1sUjEE9ztEpvcnzBGKTmd5EyhNsu-B5rwvmIwgbH~M~ToWrM86llAWPoixSyQHw2obSH8PLgfLUMNIVZC3~ziLQ7jDBqeRdHP-L1sgD6Bz9-aMbDzw74p4Qzd3aUs95KxcEnMACmNXKmiSamri-bJ2I~S2wl1PjYrvXO5ez-ftjKpeGBcQmHQdXzZBEKJLlBcUqYdZpWUgS7b5TyChA__"
         alt=""
       />
     </div>
@@ -646,7 +421,7 @@ jjj
 
 
 
-<div className="w-full h- rounded-[10px] sm:hidden md:block bg-white">
+<div className="w-full h- rounded-[10px] sm:hidden md:block bg-yellow-600">
   {/* Header Section */}
   <div className="flex justify-between">
     <div className="w-[128px] h-[48px] mt-5 ml-5">
@@ -659,11 +434,11 @@ jjj
   </div>
 
   {/* Image Section */}
-  <div className="flex  justify-between items-center h-40 ">
+  <div className="flex justify-between items-center h-40 ">
     <div className="w-52 ml-3 mt-1 ">
       <img
         className="  object-cover scale-x-[-1]"
-        src="https://s3-alpha-sig.figma.com/img/92f7/4dec/074acdd579ecaf8742bac9eede524b1f?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SzB2eiiLfzCVXqbeJf4hn-I076JwH2nVfh2rfPetPvzhqkIxgqgxaTZ7WeELmqt33LxToYwyj4QrMNq57j0PobrOm-CVj~yNe4Mj9B7XZB1iwSpSRKQTAx2PfRf3ZBQx628Pk-kQQ4YoqyojzIdmUQloXGgDEyyD8g04o9AzW~enZHJis9rQQ7M5xyqor6L7e1U9lufQpDhe~oQpXuadTTm0OPfafOblWu2ee4B0IiMF3e9H35J0HSyJfN3iZ1F0xqOae5o~MBSAIafnQR9OjLJ22Edn~bZXPkLI-BdCgrga-ZpKe36~q3KDmo1TLcOx5gujAile-8xEI1VhwnSeVQ__"
+        src="https://s3-alpha-sig.figma.com/img/92f7/4dec/074acdd579ecaf8742bac9eede524b1f?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=gZSk7Nk~tvBs9dnxBjysou-DvN41gqdgXJuYOvhI3g0Sz97BmZJGDHJRV0i88UAnecQWQCRTXg4mBHuxhsDbzCYXHXRyxfVAOaMeyENpfkGOWQGuolaPrb3Ugou7n4JVriw03All21Owp3fNhDK4yR2sbDcX58z72bI88EE5SBk3hkKdjXx66snKim4ei1bhF0WeNTta2Zk8EK9uAmWbAcRU03dNsCnB0Ee~761rlah0yLOK4TT9y4RKI4i7jIaRrWP~tMRKudXu~C46BGixF37QRhH9KUqs4zvp~pjcIymMaZC~XdrXiRVQEUe3nEuV1NrQsklptFVpCE~wjuVeYw__"
         alt=""
       />
     </div>
