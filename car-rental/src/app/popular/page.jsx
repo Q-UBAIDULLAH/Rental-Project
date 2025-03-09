@@ -32,7 +32,7 @@ return(
     
 
 
-<div className="w-72 h-80 md:h-[380px] sm:w-70 sm:h-96  rounded-[10px]  bg-violet-300">
+<div className="w-72 h-80 md:h-80 sm:w-70 sm:h-96  rounded-[10px]  bg-violet-300">
 
 
 <div className="flex justify-between ">
@@ -74,7 +74,7 @@ return(
   </span>
 </div>
 {/* bg-zinc-900 */}
-<div className="flex justify-between gap-4 mt-7 ml-4   mr-2">
+<div className="flex justify-between gap-4 mt-7 ml-4   md:mr-2">
    <div className="w-[116px] h-[44px]   ">
     <h2 className="text-[20px] font-[700] ">{item.pricePerDay}/<span className="text-[14px] font-[700] text-[#90A3BF]">day</span></h2>
 
