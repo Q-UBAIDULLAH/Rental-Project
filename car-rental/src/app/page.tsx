@@ -1,6 +1,7 @@
 import { client } from "@/sanity/lib/client";
 import Image from "next/image";
-
+import Adds from "./adds/page";
+import Cards from './cards/page'
 
 
 export default async function Home() {
@@ -21,34 +22,38 @@ export default async function Home() {
       }
       const cars=await getproduct()
       console.log(cars)
-  return (
+  return (<>
+
+<Adds></Adds>
+
+  
   
 
 
  <div className="flex ">
-  {
+   {
     cars.map((item:any)=>{
-return(
+ return(
 
-  <div className="bg-amber-400 ">
-    <div className="flex">
-        <div className="w-60 h-44 m-4 bg-gray-600 ">
-          <div className="text-red-700">{item.tags}</div>
-<div>{item.name}</div>
-<div><img className="w-full h-20 " src={item['image-url']} alt="" /></div>
-<div>{item.transmission}</div>
-<div>{item.pricePerDay}</div>
-<div>{item.fuelCapacity}</div>
-<div>{item.id}</div>
-</div>
+   <div className="bg-amber-400 ">
+     <div className="flex">
+         <div className="w-60 h-44 m-4 bg-gray-600 ">
+           <div className="text-red-700">{item.tags}</div>
+ <div>{item.name}</div>
+ <div><img className="w-full h-20 " src={item['image-url']} alt="" /></div>
+ <div>{item.transmission}</div>
+ <div>{item.pricePerDay}</div>
+ <div>{item.fuelCapacity}</div>
+ <div>{item.id}</div>
+ </div>
 
-        </div>
-        </div>
-      )
-    })
-  }
-    </div>  
+         </div>
+         </div>
+       )
+     })
+   }
+     </div>  
     
-  );
+     </>);
   ;
 }
