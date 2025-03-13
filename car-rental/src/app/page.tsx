@@ -1,7 +1,10 @@
 import { client } from "@/sanity/lib/client";
 import Image from "next/image";
 import Adds from "./adds/page";
-import Cards from './cards/page'
+import Cards from './cards/page';
+import Popular from './popular/page';
+import Recommend from './recommend/page';
+import Pick_Drop from './pickdrop/page'
 
 
 export default async function Home() {
@@ -25,12 +28,16 @@ export default async function Home() {
   return (<>
 
 <Adds></Adds>
+<Pick_Drop></Pick_Drop>
+<Popular></Popular>
+<Recommend></Recommend>
+
 
   
   
 
 
- <div className="flex ">
+ {/* <div className="flex ">
    {
     cars.map((item:any)=>{
  return(
@@ -52,7 +59,7 @@ export default async function Home() {
        )
      })
    }
-     </div>  
+     </div>   */}
     
      </>);
   ;
