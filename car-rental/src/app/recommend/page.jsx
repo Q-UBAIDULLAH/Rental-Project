@@ -24,6 +24,11 @@ const Recommend= async()=>{
     console.log("recommend card",result)
     return(
         <>
+
+             <div className="flex justify-between  ">
+            <h3 className="text-[#90A3BF]  ml-5 font-[500]">recommendation Car</h3>
+            <a className="text-[#3563E9] mr-5 font-[500]  " href="">View All</a>
+        </div> 
         <div className="bg-black md:grid md:grid-cols-4 gap-4 ">
        {
         result.map((item)=>{

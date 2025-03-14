@@ -5,6 +5,8 @@ import { MdPeopleAlt } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
 import { client } from "@/sanity/lib/client";
 const popular=async()=>{
+
+
   const popularcard=async()=>{
 const getcard=await client.fetch(
   `*[tags[0] == "popular"]{
@@ -24,6 +26,10 @@ return getcard
   const result=await popularcard()
   console.log("result",result)
     return(<>
+         <div className="flex justify-between  ">
+            <h3 className="text-[#90A3BF]  ml-5 font-[500]">Popular Car</h3>
+            <a className="text-[#3563E9] mr-5 font-[500]  " href="">View All</a>
+        </div> 
     <div className="flex   gap-4 bg-black md:gap-[14px] sm:gap-2 mt-8 overflow-x-scroll no-scrollbar w-full">
 
 {result.map((item)=>{

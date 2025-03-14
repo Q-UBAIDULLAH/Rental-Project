@@ -94,10 +94,10 @@ return(
 
 
 
-<div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full p-4 bg-gray-950">
+<div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full p-4 md:-mt-5 ">
       
       {/* Pick-Up Box */}
-      <div className="w-full md:w-[552px] h-auto md:h-[132px] rounded-[10px] bg-slate-600 p-4">
+      <div className="w-full md:w-[552px] h-auto md:h-[132px] rounded-[10px] bg-[#FFFFFF] p-4">
         <div className="flex items-center gap-2 mb-4">
           <IoIosRadioButtonOn className="text-[#3563E9]" />
           <h2 className="font-medium">Pick-Up</h2>
@@ -138,7 +138,7 @@ return(
       </div>
 
       {/* Drop-Off Box */}
-      <div className="w-full md:w-[552px] h-auto md:h-[132px] rounded-[10px] bg-slate-600 p-4">
+      <div className="w-full md:w-[552px] h-auto md:h-[132px] rounded-[10px] bg-[#FFFFFF] p-4">
         <div className="flex items-center gap-2 mb-4">
           <IoIosRadioButtonOn className="text-[#5CAFFC]" />
           <h2 className="font-medium">Drop-Off</h2>

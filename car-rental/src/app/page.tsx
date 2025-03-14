@@ -26,13 +26,17 @@ export default async function Home() {
       const cars=await getproduct()
       console.log(cars)
   return (<>
+<div className="bg-[#F6F7F9]">
+
 
 <Adds></Adds>
 <Pick_Drop></Pick_Drop>
 <Popular></Popular>
-<Recommend></Recommend>
+{/* <Pick_Drop></Pick_Drop>
+<Popular></Popular>
+<Recommend></Recommend> */}
 
-
+</div>
   
   
 
