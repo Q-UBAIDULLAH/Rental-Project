@@ -29,10 +29,10 @@ const Recommend= async()=>{
             <h3 className="text-[#90A3BF]  ml-5 font-[500]">recommendation Car</h3>
             <a className="text-[#3563E9] mr-5 font-[500]  " href="">View All</a>
         </div> 
-        <div className="bg-black md:grid md:grid-cols-4 gap-4 ">
+        <div className=" md:grid md:grid-cols-3 gap-4">
        {
         result.map((item)=>{
-            return( <div className="w-full  h-  md:w-72 md:h- rounded-[10px] sm:hidden md:block bg-yellow-600">
+            return( <div className="w-full  h-  md:w-72 md:h- rounded-[10px] sm:hidden md:block bg-[#FFFFFF]">
               {/* Header Section */}
               <div className="flex justify-between ">
                 <div className="w-[px] h-[48px] mt-5 ml-5">
@@ -46,7 +46,7 @@ const Recommend= async()=>{
             
               {/* Image Section */}
               <div className="flex justify-between items-center md:block h-40 ">
-                <div className="w-52  ml-3 mt-1 bg-black md:w-64 md:h-32 md:p-1 md:ml-2 md:mr-2     md:flex justify-center items-center">
+                <div className="w-52  ml-3 mt-1  md:w-64 md:h-32 md:p-1 md:ml-2 md:mr-2     md:flex justify-center items-center">
                   <img
                     className="w-full "
                     src={item["image-url"]}
@@ -55,7 +55,7 @@ const Recommend= async()=>{
                 </div>
             
                 {/* Icons Vertically After Image */}
-                <div className="flex flex-col md:flex-row  mb-4 gap-3 ml-5 md:ml-5 mr-2 md:mt-2 ">
+                <div className="flex flex-col md:flex-row  mb-4 gap-3 ml-5 md:ml-5 mr-2 md:mt-4 ">
               <span className="flex   font-[500] text-[14px] text-[#90A3BF] whitespace-nowrap">
                 <BsFillFuelPumpFill className="text-[23px] text-[#65748c]" />
                 <span className="ml-2">{item.fuelCapacity}</span>
@@ -75,7 +75,7 @@ const Recommend= async()=>{
               </div>
             
               {/* Price & Rent Button */}
-              <div className="flex justify-between mr-2 gap-14 md:gap-4 mt-7 mb-3 ml-5">
+              <div className="flex justify-between mr-2 gap-14 md:gap-4 mt-7 mb-3 ml-5 md:pb-2">
                 <div className="">
                   <h2 className="text-[20px] font-[700]">
                     {item.pricePerDay}/
@@ -85,7 +85,7 @@ const Recommend= async()=>{
                     {/* <del className="text-[#90A3BF] text-[14px] font-[700]">$80.00</del> */}
                   </h2>
                 </div>
-                <button className="w-28 h-11 md:w-[116px] md:h-[44px] rounded-[4px] bg-[#3563E9] text-[#FFFFFF]">
+                <button className="w-28 h-11 md:w-[116px] md:h-[44px]  rounded-[4px] bg-[#3563E9] text-[#FFFFFF]">
                   Rent Now
                 </button>
               </div>

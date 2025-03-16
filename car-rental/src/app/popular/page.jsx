@@ -30,7 +30,7 @@ return getcard
             <h3 className="text-[#90A3BF]  ml-5 font-[500]">Popular Car</h3>
             <a className="text-[#3563E9] mr-5 font-[500]  " href="">View All</a>
         </div> 
-    <div className="flex   gap-4 bg-black md:gap-[14px] sm:gap-2 mt-8 overflow-x-scroll no-scrollbar w-full">
+    <div className="flex  h- gap-4  md:gap-[14px] sm:gap-2 mt-8 overflow-x-scroll no-scrollbar md:overflow-x-hidden w-full">
 
 {result.map((item)=>{
 return(
@@ -38,7 +38,7 @@ return(
     
 
 
-<div className="w-72 h-80 md:h-80 sm:w-70 sm:h-96  rounded-[10px]  bg-violet-300">
+<div className="w-72 h-80  md:h-[340px]   sm:w-70 sm:h-96  rounded-[10px]  bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -57,7 +57,7 @@ return(
 
 {/* bg-black */}
 
-<div className="w-64 h-32 p-1 ml-2 mr-2   mt-3 bg-black flex justify-center items-center">
+<div className="w-64 h-32 p-1 ml-2 mr-2   mt-3  flex justify-center items-center ">
   <img className="w-full   object-cover" 
        src={item["image-url"]} 
        alt="Car" />
@@ -65,7 +65,7 @@ return(
 
 
 
-<div className="flex gap-4 mt-2 ml-3   md:ml-5 sm:ml-2">
+<div className="flex gap-4 mt-2 ml-3 md:mt-4  md:ml-5 sm:ml-2 ">
   <span class="flex items-center font-[500] text-[14px] text-[#90A3BF]">
     <BsFillFuelPumpFill class="mr-2 text-[23px] text-[#65748c]"/>
     {item.fuelCapacity}
@@ -86,7 +86,7 @@ return(
 
 
     </div> 
-    <button className="w-[116px] h-[43px]  rounded-[4px] bg-[#3563E9] text-[#FFFFFF]">Rent Now</button>
+    <button className="w-[116px] h-[43px]  rounded-[4px] bg-[#3563E9] text-[#FFFFFF] ">Rent Now</button>
 </div>
 
 </div>

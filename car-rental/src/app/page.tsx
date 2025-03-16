@@ -32,6 +32,7 @@ export default async function Home() {
 <Adds></Adds>
 <Pick_Drop></Pick_Drop>
 <Popular></Popular>
+<Recommend></Recommend>
 {/* <Pick_Drop></Pick_Drop>
 <Popular></Popular>
 <Recommend></Recommend> */}
