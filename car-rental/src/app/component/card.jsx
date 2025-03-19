@@ -1,10 +1,10 @@
 const Card=()=>{
 return(
 <div className="bg-yellow-300 w-full h-full flex flex-col justify-center items-center  ">
-<div className=" rounded-xl m-4 w-72 bg-orange-500 ">
+<div className=" rounded-xl m-4 w-72 md:w-2/4 bg-orange-500 ">
 
 
-    <div className="flex justify-between  bg-orange-400 m-4 ">
+    <div className="flex justify-between  bg-orange-400 m-4">
     <div className="w-40 bg-slate-500">
     <h3 className="font-[700]">Billing Info</h3>
     <p className="text-[#90A3BF] text-[11px]">Please enter your billing info</p>
@@ -12,18 +12,34 @@ return(
     <div className=""><p>Step 1 of 4</p></div>
   </div>
 
-  <div className="mt-3 pb-4   m-4 bg-slate-600">
-  <div className="mt-1 pl-1.5">
-  <p>Name</p>
-<input  className="bg-[#F6F7F9] rounded-[5px] h-10 md:w-[256px] md:h-[39px] mt-2 p-4 " placeholder="Yoyr name" type="text" />
-<p className="mt-3">Phone Number</p>
-<input className="bg-[#F6F7F9] rounded-[5px] h-10 md:w-[256px] md:h-[39px] mt-2 p-4" placeholder="Phone number" type="text"  />
+  <div className="mt-3 pb-4 w-full  m-4 md:m-0 bg-slate-600 p-4">
+  <div className="mt-1 pl-1.5 md:flex md:gap-4">
+    <div className="flex flex-col w-full md:w-1/2">
+
+    
+  <p className="mb-1 text-white">Name</p>
+<input  className="bg-[#F6F7F9] rounded-[5px] h-10 md:w-[full] md:h-[10px] mt-2 md:mt-0 p-4 " placeholder="Yoyr name" type="text" />
+</div>
+<div className="flex flex-col w-full md:w-1/2">
+
+
+<p className="mt-3 md:mt-0 md:mb-1">Phone Number</p>
+<input className="bg-[#F6F7F9] rounded-[5px] h-10 md:w-[full] md:h-[10px] mt-2 md:mt-0 p-4" placeholder="Phone number" type="text"  />
   </div>
-  <div className="mt-3 ml-1.5">
-  <p >Address</p>
-<input  className="bg-[#F6F7F9] rounded-[5px] md:w-[256px] h-10 md:h-[39px] mt-2 p-4" placeholder="Address" type="text" />
-<p className="mt-3">Town/City</p>
-<input  className="bg-[#F6F7F9] rounded-[5px] md:w-[256px] h-10 md:h-[39px] mt-2 p-4" placeholder="Town or city" type="text" />
+  </div>
+  <div className="mt-3 ml-1.5 md:flex md:gap-4">
+    <div className="flex flex-col w-full md:w-1/2">
+
+  
+  <p className="mb-1 text-white">Address</p>
+<input  className="bg-[#F6F7F9] rounded-[5px] md:w-[full] h-10 md:h-[10px] mt-2 md:mt-0 p-4" placeholder="Address" type="text" />
+</div>
+<div className="flex flex-col w-full md:w-1/2">
+
+
+<p className="mt-3 md:mt-0 md:mb-1">Town/City</p>
+<input  className="bg-[#F6F7F9] rounded-[5px] md:w-[full] h-10 md:h-[10px] mt-2 md:mt-0 p-4" placeholder="Town or city" type="text" />
+  </div>
   </div>
 
 
@@ -31,7 +47,7 @@ return(
 
   </div>
   
-  <div className="rounded-xl m-4 w-72 bg-orange-500">
+  <div className="rounded-xl m-4 w-72 md:w-2/4 bg-orange-500">
 
     <div className="flex justify-between  bg-orange-400 m-4 ">
       <div className="w-40 bg-slate-500">
@@ -109,7 +125,7 @@ return(
 
 </div> 
 
-<div className="rounded-xl m-4 w-72 pb-2 bg-orange-500 ">
+<div className="rounded-xl m-4 w-72 md:w-2/4 pb-2 bg-orange-500 ">
 
 <div className="flex justify-between  bg-orange-400 m-4 ">
     <div className="w-40 bg-slate-500">
@@ -126,17 +142,17 @@ return(
 </div>
 
 <div className="mt-3 pb-4  md:flex md:gap-6 ">
-  <div className="mt-1 pl-1.5 ">
+  <div className="mt-1 pl-1.5 md:mt-0">
   <p>Card Number</p>
-<input  className="bg-[#F6F7F9] rounded-[5px] md:w-[256px] h-10 md:h-[39px] mt-2 p-4" placeholder="Yoyr name" type="text" />
-<p className="mt-3">Card Holder</p>
-<input className="bg-[#F6F7F9] rounded-[5px] md:w-[256px] h-10 md:h-[39px] mt-2 p-4" placeholder="Phone number" type="text"  />
+<input  className="bg-[#F6F7F9] rounded-[5px] md:w-full h-10 md:h-[10px] mt-2 p-4" placeholder="Yoyr name" type="text" />
+<p className="mt-3 ">Card Holder</p>
+<input className="bg-[#F6F7F9] rounded-[5px] md:w-full h-10 md:h-[10px] mt-2 p-4" placeholder="Phone number" type="text"  />
   </div>
-  <div className="mt-3 pl-1.5">
-  <p >Expration Date</p>
-<input  className="bg-[#F6F7F9] rounded-[5px] md:w-[256px] h-10 md:h-[39px] mt-2 p-4" placeholder="Address" type="text" />
+  <div className="mt-3 pl-1.5 md:mt-0 ">
+  <p className="">Expration Date</p>
+<input  className="bg-[#F6F7F9] rounded-[5px] md:w-full h-10 md:h-[10px] mt-2 p-4" placeholder="Address" type="text" />
 <p className="mt-3">CVC</p>
-<input  className="bg-[#F6F7F9] rounded-[5px] md:w-[256px] h-10 md:h-[39px] mt-2 p-4" placeholder="Town or city" type="text" />
+<input  className="bg-[#F6F7F9] rounded-[5px] md:w-full h-10 md:h-[10px] mt-2 p-4" placeholder="Town or city" type="text" />
   </div>
 
 
@@ -147,12 +163,12 @@ return(
 </div>
 
 <div className="">
-<div className="flex justify-between items-center m-4 h- p-2 md:float-left md:w-[804px] md:h-[45px] md:py-2 rounded-[5px] bg-slate-300">
+<div className="flex justify-between items-center m-4 h- p-2 md:float-left md:m-0 md:w-full md:h-[45px] md:py-2 rounded-[5px] bg-slate-300">
   
   <div className=""><input type="radio" /><label> PayPal</label></div>
 <p className="md:float-right">PAYPAL</p>
 </div>  
-<div className="flex justify-between items-center m-4 h- p-2 md:float-left md:w-[804px] md:h-[45px] md:py-2  rounded-[5px] md:mt-6 bg-slate-300">
+<div className="flex justify-between items-center m-4 h- p-2 md:float-left md:m-0 md:w-full md:h-[45px] md:py-2  rounded-[5px] md:mt-6 bg-slate-300">
   <div><input type="radio" /><label className=""> Bitcoin</label></div>
 <p className="md:float-right">BITCOIN</p>
 </div>  
@@ -162,7 +178,7 @@ return(
 </div> 
 
 
-<div className="rounded-xl m-4 w-72 pb-2 bg-orange-500  md:w-[852px] md:h-[484px] md:bg-slate-600">
+<div className="rounded-xl m-4 w-72 md:w-2/4 pb-2 bg-orange-500   md:h-[484px] md:bg-slate-600">
 
 <div className="flex justify-between  bg-orange-400 m-4 ">
     <div className="w-40   bg-slate-500">
@@ -176,12 +192,12 @@ return(
 
 
  
-  <div className=" m-4 flex justify-center items-center  p- h-14 md:float-left md:w-[804px] md:h-[45px] md:py-2 rounded-[5px] bg-slate-300">
+  <div className=" m-4 flex justify-center items-center  p- h-14 md:block md:float-left md:w-full md:m-0 md:h-[45px] md:py-2 rounded-[5px] bg-slate-300">
   
   <div className="flex "><input type="checkbox" /><label className="pl-1 text-xs  "> I agree with sending an Marketing and newsletter emails. No spam, promissed!</label></div>
 
 </div> 
-  <div className=" m-4 h- p- h-14 flex justify-center items-center  md:float-left md:w-[804px] md:h-[45px] md:py-2 rounded-[5px] bg-slate-300">
+  <div className=" m-4 h- p- h-14 flex justify-center items-center  md:block md:float-left md:w-full md:m-0 md:mt-7 md:h-[45px] md:py-2 rounded-[5px] bg-slate-300">
   
   <div className="flex "><input type="checkbox" /><label className="pl-1 text-xs flex">I agree with our terms and conditions and privacy policy!</label></div>
 

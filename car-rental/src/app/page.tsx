@@ -4,7 +4,8 @@ import Adds from "./adds/page";
 import Cards from './cards/page';
 import Popular from './popular/page';
 import Recommend from './recommend/page';
-import Pick_Drop from './pickdrop/page'
+import Pick_Drop from './pickdrop/page';
+import Card from "../app/component/card"
 
 
 export default async function Home() {
@@ -28,11 +29,11 @@ export default async function Home() {
   return (<>
 <div className="bg-[#F6F7F9]">
 
-
-<Adds></Adds>
+<Card/>
+{/* <Adds></Adds>
 <Pick_Drop></Pick_Drop>
 <Popular></Popular>
-<Recommend></Recommend>
+<Recommend></Recommend> */}
 {/* <Pick_Drop></Pick_Drop>
 <Popular></Popular>
 <Recommend></Recommend> */}

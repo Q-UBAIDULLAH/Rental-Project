@@ -2,7 +2,7 @@ const Slidebar=()=>{
 
     return(
         <>
-<div className="w-[239px] h-[1530px] float-left bg-[black]">
+<div className="w-[239px] h-[1530px] float-left bg-[white]">
     <div className="pt-8 ml-5">
   
     <h3 className="text-[#90A3BF] tracking-widest">TYPE</h3>

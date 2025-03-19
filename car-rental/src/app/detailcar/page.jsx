@@ -5,17 +5,22 @@ import { RxColorWheel } from "react-icons/rx";
 import { MdPeopleAlt } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
 import Slidebar from "../slidebar/page"
+import  footer from "../footer/page";
+import Footer from "../footer/page";
 // import Jeff from '../assets/CEOAmazon.jpg'
 // import Elonmusk from '../assets/CEOTesla.jpg'
 const DetailCar=()=>{
     return(
         <>
+        <div className="bg-[#F6F7F9]">
+
+    
         <Slidebar></Slidebar>
- <div className="flex-col  gap-6 m-4 md:relative md:left-3 bg-orange-500 md:flex md:flex-row rounded-lg">
+ <div className="flex-col  gap-16 m-4 md:relative md:left-8 md:top-5  bg-  md:w-3/4 md:flex md:flex-row rounded-lg">
 
 
 
-<div className=" bg-[#c72235]  rounded-[10px] ">
+<div className=" bg-[]   rounded-[10px] ">
 
   
 <div className="bg-[#3563E9] w-full h-full  rounded-[10px] md:w-96 md:h-64">
@@ -63,7 +68,7 @@ futuristic and elegant sports car</h5>
 
 
 
-<div className="w-full bg-red-700 rounded-[10px]  mt-3 md:w-96">
+<div className="w-full bg-white rounded-[10px]  mt-3 md:w-96">
 
     <div className=" w-[220px] h-[72px]  ml-4 float-left mt-3">
         <h1 className="font-[700] text-[22px] float-left ">Nissan GT-R</h1>
@@ -115,7 +120,7 @@ futuristic and elegant sports car</h5>
 </div>
 
 
-<div className=" m-4 bg-red-300 rounded-lg  md:flex  ">
+<div className=" m-4 bg-white rounded-lg  md:flex md:relative md:left-8 md:top-5 md:w-3/4">
 
  <div className="w-full h-full  p-4  rounded-[10px] ">
 
@@ -215,6 +220,8 @@ futuristic and elegant sports car</h5>
 
 
 
+</div>
+<Footer></Footer>
 </div>
 </>)}
 export default DetailCar
