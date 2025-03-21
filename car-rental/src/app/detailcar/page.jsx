@@ -15,7 +15,7 @@ const DetailCar=()=>{
         <div className="bg-[#F6F7F9]">
 
     
-        <Slidebar></Slidebar>
+        {/* <Slidebar></Slidebar> */}
  <div className="flex-col  gap-16 m-4 md:relative md:left-8 md:top-5  bg-  md:w-3/4 md:flex md:flex-row rounded-lg">
 
 
