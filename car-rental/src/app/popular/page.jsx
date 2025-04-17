@@ -26,11 +26,11 @@ return getcard
   const result=await popularcard()
   console.log("result",result)
     return(<>
-         <div className="flex justify-between  ">
+         <div className="flex justify-between md:m-4  md:-mt-28">
             <h3 className="text-[#90A3BF]  ml-5 font-[500]">Popular Car</h3>
             <a className="text-[#3563E9] mr-5 font-[500]  " href="">View All</a>
         </div> 
-    <div className="flex  h- gap-4  md:gap-[14px] sm:gap-2 mt-8 overflow-x-scroll no-scrollbar md:overflow-x-hidden w-full">
+    <div className="flex  h- gap-4  md:gap-[14px] sm:gap-2 mt-8 overflow-x-scroll no-scrollbar md:overflow-x-hidden w-full md:mt-6  ">
 
 {result.map((item)=>{
 return(
@@ -38,7 +38,7 @@ return(
     
 
 
-<div className="w-72 h-80  md:h-[340px]   sm:w-70 sm:h-96  rounded-[10px]  bg-[#FFFFFF]">
+<div className="w-72 h-80  md:h-[340px] md:ml-3  sm:w-70 sm:h-96  rounded-[10px]  bg-[#FFFFFF] ">
 
 
 <div className="flex justify-between ">

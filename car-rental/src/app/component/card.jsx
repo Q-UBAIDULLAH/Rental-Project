@@ -74,7 +74,7 @@ return(
     <div className="text-[#90A3BF]  md:text-sm"><p>Step 1 of 4</p></div>
   </div>
 
-  <div className="mt-3 pb-4 w-full  m-4 md:m-0  p-4 ">
+  <div className="mt-3 pb-4 w-full  m- md:m-0  p-4 ">
   <div className="mt-1 pl-1.5 md:flex md:gap-6">
     <div className="flex flex-col w-full md:w-1/2">
 
@@ -216,13 +216,13 @@ return(
   <div className="mt-1 pl-1.5 md:mt-0">
   <p>Card Number</p>
 <input  className="bg-[#FFFFFF] rounded-[5px] md:w-64 h-10 md:h- mt-2 p-4" placeholder="Yoyr name" type="text" />
-<p className="mt-3 ">Card Holder</p>
+<p className="mt-3 md:mt-5 ">Card Holder</p>
 <input className="bg-[#FFFFFF] rounded-[5px] md:w-64 h-10 md:h-[] mt-2 p-4" placeholder="Phone number" type="text"  />
   </div>
   <div className="mt-3 pl-1.5 md:mt-0 ">
   <p className="">Expration Date</p>
 <input  className="bg-[#FFFFFF] rounded-[5px] md:w-64 h-10 md:h-[] mt-2 p-4" placeholder="Address" type="text" />
-<p className="mt-3">CVC</p>
+<p className="mt-3 md:mt-5">CVC</p>
 <input  className="bg-[#FFFFFF] rounded-[5px] md:w-64 h-10 md:h-[] mt-2 p-4" placeholder="Town or city" type="text" />
   </div>
 

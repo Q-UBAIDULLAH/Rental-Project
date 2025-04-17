@@ -29,11 +29,11 @@ export default async function Home() {
   return (<>
 <div className="bg-[#F6F7F9]">
 
-<Card/>
-{/* <Adds></Adds>
+{/* <Card/> */}
+<Adds></Adds>
 <Pick_Drop></Pick_Drop>
 <Popular></Popular>
-<Recommend></Recommend> */}
+<Recommend></Recommend>
 {/* <Pick_Drop></Pick_Drop>
 <Popular></Popular>
 <Recommend></Recommend> */}

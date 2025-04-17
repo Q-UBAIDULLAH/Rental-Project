@@ -25,14 +25,14 @@ const Recommend= async()=>{
     return(
         <>
 
-             <div className="flex justify-between  ">
-            <h3 className="text-[#90A3BF]  ml-5 font-[500]">recommendation Car</h3>
+             <div className="flex justify-between  md:mt-6 md:m-4">
+            <h3 className="text-[#90A3BF]  ml-5 font-[500]">Recommendation Car</h3>
             <a className="text-[#3563E9] mr-5 font-[500]  " href="">View All</a>
         </div> 
-        <div className=" md:grid md:grid-cols-3 gap-4">
+        <div className=" md:grid md:grid-cols-4 gap-4 md:gap-[30px]  md:mr-9">
        {
         result.map((item)=>{
-            return( <div className="w-full  h-  md:w-72 md:h- rounded-[10px] sm:hidden md:block bg-[#FFFFFF]">
+            return( <div className="w-full  h-  md:w-72 md:h- rounded-[10px] sm:hidden md:block bg-[#FFFFFF] md:ml-3">
               {/* Header Section */}
               <div className="flex justify-between ">
                 <div className="w-[px] h-[48px] mt-5 ml-5">
